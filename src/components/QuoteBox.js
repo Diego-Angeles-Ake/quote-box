@@ -13,7 +13,7 @@ function QuoteBox(props) {
   };
   const [quoteObj, setQuote] = useState(randomQuote());
   const { quote, author } = quoteObj;
-  const [colorQuote, setColorQuote] = useState(rC());
+  const [colorQuote, setColorQuote] = useState("black");
 
   const quoteHandler = () => {
     let newColor = rC();

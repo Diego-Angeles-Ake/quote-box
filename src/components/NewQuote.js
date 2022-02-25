@@ -13,7 +13,9 @@ export default function NewQuote(props) {
           icon="fa-solid fa-circle-chevron-right"
           size="3x"
           type="button"
-          onClick={clickHandler}
+          onClick={() => {
+            clickHandler();
+          }}
         />
       </div>
     </>
